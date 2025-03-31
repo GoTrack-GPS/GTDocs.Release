@@ -1,2 +1,0 @@
-# GTDocsRelease
- Official Docs
