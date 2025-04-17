@@ -2,78 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://support.gotrack365.com/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/api/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/blog/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://support.gotrack365.com/changed/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://support.gotrack365.com/changed/platform/changed-platform/</loc>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/commands/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/commands/bsj/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/commands/gotrack/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/commands/jimi-concox/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/commands/streamax/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/devices/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/devices/dashcam/gh13p/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/devices/dashcam/sd02n/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/devices/gps/s400e/</loc>
-         <lastmod>2025-04-09</lastmod>
-    </url>
-    <url>
-         <loc>https://support.gotrack365.com/devices/mdvr/gt-mdvr02-plus/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/faq/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/faq/platform/faq-platform/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/platform/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/platform/login/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/platform/network/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://support.gotrack365.com/tutorial/</loc>
-         <lastmod>2025-04-09</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
 </urlset>
