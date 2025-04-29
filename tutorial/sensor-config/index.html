@@ -12,7 +12,7 @@
         <meta name="author" content="GoTrack">
       
       
-        <link rel="canonical" href="https://support.gotrack365.com/tutorial/sensornote/">
+        <link rel="canonical" href="https://support.gotrack365.com/tutorial/sensor-config/">
       
       
       
@@ -120,7 +120,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cau-hinh-cam-bien-khi-ket-noi-voi-thiet-bi-cua-gotrack" class="md-skip">
+        <a href="#bo-thong-so-cai-at-cam-bien" class="md-skip">
           Skip to content
         </a>
       
@@ -1326,36 +1326,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gt-s8-gt-s7-gt-s04-s400e-s400-g400-plus" class="md-nav__link">
+  <a href="#cam-bien-nhien-lieu-ligo-sp-rs232" class="md-nav__link">
     <span class="md-ellipsis">
-      GT-S8 / GT-S7 / GT-S04 / S400E / S400 / G400 Plus
+      Cảm biến nhiên liệu LIGO SP RS232
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#gt-mdvr02-plus-gt-mdvr03" class="md-nav__link">
+  <a href="#cam-bien-nhiet-o-ste-r1" class="md-nav__link">
     <span class="md-ellipsis">
-      GT-MDVR02 Plus / GT-MDVR03
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sd02n" class="md-nav__link">
-    <span class="md-ellipsis">
-      SD02N
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ghi-chu" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚠️ Ghi chú
+      Cảm biến nhiệt độ STE-R1
     </span>
   </a>
   
@@ -1410,72 +1392,73 @@
 <!-- Actions -->
 
 
-<div><h1 id="cau-hinh-cam-bien-khi-ket-noi-voi-thiet-bi-cua-gotrack">Cấu hình cảm biến khi kết nối với thiết bị của Gotrack<a class="headerlink" href="#cau-hinh-cam-bien-khi-ket-noi-voi-thiet-bi-cua-gotrack" title="Permanent link">¶</a></h1>
-<hr>
-<h2 id="gt-s8-gt-s7-gt-s04-s400e-s400-g400-plus">GT-S8 / GT-S7 / GT-S04 / S400E / S400 / G400 Plus<a class="headerlink" href="#gt-s8-gt-s7-gt-s04-s400e-s400-g400-plus" title="Permanent link">¶</a></h2>
+<div><h1 id="bo-thong-so-cai-at-cam-bien">Bộ thông số cài đặt cảm biến<a class="headerlink" href="#bo-thong-so-cai-at-cam-bien" title="Permanent link">¶</a></h1>
+<h2 id="cam-bien-nhien-lieu-ligo-sp-rs232">Cảm biến nhiên liệu LIGO SP RS232<a class="headerlink" href="#cam-bien-nhien-lieu-ligo-sp-rs232" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
-<th>Loại cảm biến</th>
-<th>Ghi chú</th>
+<th>#</th>
+<th>Chế độ</th>
+<th>BaudRate</th>
+<th>Model</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Cảm biến nhiên liệu</td>
-<td>Chế độ Auto (OFF), Baudrate 9600</td>
+<td>1</td>
+<td>Auto (OFF)</td>
+<td>9600</td>
+<td>GT-S8 / GT-S7 / GT-S04 / S400E / S400 / G400 Plus</td>
 </tr>
 <tr>
-<td>Cảm biến nhiệt độ STE-R1</td>
-<td>Chế độ Normal, Baudrate 19200</td>
+<td>2</td>
+<td>Auto (HEX)</td>
+<td>9600</td>
+<td>SD02N</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Auto (HEX)</td>
+<td>115200</td>
+<td>GT-MDVR02 Plus / GT-MDVR03</td>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2 id="gt-mdvr02-plus-gt-mdvr03">GT-MDVR02 Plus / GT-MDVR03<a class="headerlink" href="#gt-mdvr02-plus-gt-mdvr03" title="Permanent link">¶</a></h2>
+<h2 id="cam-bien-nhiet-o-ste-r1">Cảm biến nhiệt độ STE-R1<a class="headerlink" href="#cam-bien-nhiet-o-ste-r1" title="Permanent link">¶</a></h2>
 <table>
 <thead>
 <tr>
-<th>Loại cảm biến</th>
-<th>Ghi chú</th>
+<th>#</th>
+<th>Chế độ</th>
+<th>BaudRate</th>
+<th>Model</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Cảm biến nhiên liệu</td>
-<td>Chế độ Auto (HEX), Baudrate 115200</td>
+<td>1</td>
+<td>Normal</td>
+<td>19200</td>
+<td>GT-S8 / GT-S7 / GT-S04 / S400E / S400 / G400 Plus</td>
 </tr>
 <tr>
-<td>Cảm biến nhiệt độ STE-R1</td>
-<td>Chế độ Auto, Baudrate 115200</td>
+<td>2</td>
+<td>Auto</td>
+<td>19200</td>
+<td>SD02N</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Auto</td>
+<td>115200</td>
+<td>GT-MDVR02 Plus / GT-MDVR03</td>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2 id="sd02n">SD02N<a class="headerlink" href="#sd02n" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>Loại cảm biến</th>
-<th>Ghi chú</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cảm biến nhiên liệu</td>
-<td>Chế độ Auto (HEX), Baudrate 9600</td>
-</tr>
-<tr>
-<td>Cảm biến nhiệt độ STE-R1</td>
-<td>Chế độ Auto, Baudrate 19200</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<h2 id="ghi-chu">⚠️ Ghi chú<a class="headerlink" href="#ghi-chu" title="Permanent link">¶</a></h2>
+<p>⚠️ Ghi chú</p>
 <blockquote>
 <ul>
-<li>Sử dụng cảm biến không đúng chuẩn sẽ không thể kết nối với thiết bị.</li>
+<li>Sử dụng cảm biến không cấu hình đúng yêu cầu sẽ không thể kết nối với thiết bị.</li>
 <li><strong>Luôn kiểm tra phiên bản firmware</strong> và <strong>tài liệu kỹ thuật</strong> trước khi kết nối cảm biến.</li>
 <li><strong>Nếu kết nối nhiều cảm biến</strong>, hãy tham khảo <strong>ý kiến kỹ thuật viên</strong> để đảm bảo an toàn và đúng cách.</li>
 </ul>
