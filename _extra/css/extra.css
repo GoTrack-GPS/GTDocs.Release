@@ -133,7 +133,7 @@
 }
 
 .md-typeset {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .md-nav {
@@ -270,7 +270,7 @@ button:nth-child(2)>svg {
     font-size: 0.5rem;
     height: auto;
     padding: 0.1rem 0.2rem;
-    -webkit-mask-image: none;
+    /*-webkit-mask-image: none;*/
     width: auto;
 }
 
@@ -478,3 +478,29 @@ code {
 .bottom-link .footer-link {
     color: #20b69e;
 }
+
+
+/* Hiển thị đầy đủ đường kẻ cho bảng */
+.md-typeset table.ip-table,
+.md-typeset table.ip-table th,
+.md-typeset table.ip-table td {
+    border: 1px solid #007ACC;
+    vertical-align: middle;
+}
+
+.md-typeset table.ip-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.md-typeset table.ip-table th {
+    background-color: #F4B400;
+    font-weight: 700;
+    text-align: left;
+    padding: 0.5em 0.75em;
+}
+
+.md-typeset table.ip-table td {
+    padding: 0.5em 0.75em;
+}
+

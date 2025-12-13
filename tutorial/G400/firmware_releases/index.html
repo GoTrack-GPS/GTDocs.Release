@@ -6,32 +6,36 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Cấu hình cảm biến khi kết nối với thiết bị của Gotrack">
+        <meta name="description" content="Official Documentation Center from GoTrack">
       
       
         <meta name="author" content="GoTrack">
       
       
-        <link rel="canonical" href="https://support.gotrack365.com/tutorial/sensor-config/">
+        <link rel="canonical" href="https://support.gotrack365.com/tutorial/G400/firmware_releases/">
       
       
+        <link rel="prev" href="../advanced/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+        <link rel="next" href="../../GTS8/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
     
     
 
 
-<title>Cấu hình cảm biến khi kết nối với thiết bị của Gotrack | GoTrack Support Center </title>
+<title>Firmware | GoTrack Support Center </title>
 
 
 
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -39,7 +43,7 @@
     
     
 
-<!-- Google Tag Manager -->
+<!-- Google Tag Manager
 <script>(function (w, d, s, l, i) {
         w[l] = w[l] || []; w[l].push({
             'gtm.start':
@@ -48,10 +52,10 @@
             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-K86VCV3');</script>
-<!-- End Google Tag Manager -->
+End Google Tag Manager -->
 
 
-<!-- <script defer event-content_type="tutorial" 
+<!-- <script defer 
     data-domain="docs.n8n.io"
     src="https://plausible.io/js/script.file-downloads.outbound-links.pageview-props.js"></script> -->
 
@@ -72,17 +76,19 @@
       
     
     
-      <link rel="stylesheet" href="../../_extra/css/extra.css">
+      <link rel="stylesheet" href="../../../_extra/css/extra.css">
     
-      <link rel="stylesheet" href="../../_extra/css/macro-styles.css">
+      <link rel="stylesheet" href="../../../_extra/css/macro-styles.css">
     
-      <link rel="stylesheet" href="../../_extra/css/templates-widget.css">
+      <link rel="stylesheet" href="../../../_extra/css/templates-widget.css">
     
-      <link rel="stylesheet" href="../../_extra/css/workflow-demo.css">
+      <link rel="stylesheet" href="../../../_extra/css/workflow-demo.css">
     
-      <link rel="stylesheet" href="../../_extra/css/feedback.css">
+      <link rel="stylesheet" href="../../../_extra/css/feedback.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+      <link rel="stylesheet" href="../../../_extra/css/style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -120,7 +126,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bo-thong-so-cai-at-cam-bien" class="md-skip">
+        <a href="#firmware-revisions" class="md-skip">
           Skip to content
         </a>
       
@@ -144,7 +150,7 @@
 
     <!-- Link to home -->
     <a
-      href="../.."
+      href="../../.."
       title="GoTrack Support Center"
       class="md-header__button md-logo"
       aria-label="GoTrack Support Center"
@@ -309,7 +315,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -330,7 +336,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../platform/" class="md-tabs__link">
+        <a href="../../../platform/" class="md-tabs__link">
           
   
   
@@ -352,7 +358,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../api/" class="md-tabs__link">
+        <a href="../../../api/" class="md-tabs__link">
           
   
   
@@ -374,7 +380,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../devices/" class="md-tabs__link">
+        <a href="../../../devices/" class="md-tabs__link">
           
   
   
@@ -396,7 +402,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../commands/" class="md-tabs__link">
+        <a href="../../../commands/" class="md-tabs__link">
           
   
   
@@ -414,11 +420,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
           
   
   
@@ -440,7 +448,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../changed/" class="md-tabs__link">
+        <a href="../../../changed/" class="md-tabs__link">
           
   
   
@@ -462,7 +470,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../faq/" class="md-tabs__link">
+        <a href="../../../faq/" class="md-tabs__link">
           
   
   
@@ -496,9 +504,7 @@
           
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -509,7 +515,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="GoTrack Support Center" class="md-nav__button md-logo" aria-label="GoTrack Support Center" data-md-component="logo">
+    <a href="../../.." title="GoTrack Support Center" class="md-nav__button md-logo" aria-label="GoTrack Support Center" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -527,7 +533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -564,8 +570,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -576,7 +580,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../platform/" class="md-nav__link ">
+            <a href="../../../platform/" class="md-nav__link ">
               
   
   
@@ -611,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../platform/login/" class="md-nav__link">
+      <a href="../../../platform/login/" class="md-nav__link">
         
   
   
@@ -634,7 +638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../platform/network/" class="md-nav__link">
+      <a href="../../../platform/network/" class="md-nav__link">
         
   
   
@@ -675,8 +679,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -687,7 +689,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../api/" class="md-nav__link ">
+            <a href="../../../api/" class="md-nav__link ">
               
   
   
@@ -739,8 +741,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -751,7 +751,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../devices/" class="md-nav__link ">
+            <a href="../../../devices/" class="md-nav__link ">
               
   
   
@@ -795,8 +795,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -833,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../devices/gps/s400e/" class="md-nav__link">
+      <a href="../../../devices/gps/s400e/" class="md-nav__link">
         
   
   
@@ -875,8 +873,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -913,7 +909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../devices/dashcam/sd02n/" class="md-nav__link">
+      <a href="../../../devices/dashcam/sd02n/" class="md-nav__link">
         
   
   
@@ -936,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../devices/dashcam/gh13p/" class="md-nav__link">
+      <a href="../../../devices/dashcam/gh13p/" class="md-nav__link">
         
   
   
@@ -982,12 +978,16 @@
       
         
       
-    
-    
-    
-      
+        
       
         
+      
+        
+      
+    
+    
+    
+      
       
     
     
@@ -999,7 +999,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../commands/" class="md-nav__link ">
+            <a href="../../../commands/" class="md-nav__link ">
               
   
   
@@ -1034,12 +1034,81 @@
   
   
     <li class="md-nav__item">
-      <a href="../../commands/gotrack/" class="md-nav__link">
+      <a href="../../../commands/gotrack/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     GoTrack
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../commands/bsj/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BSJ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../commands/streamax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Streamax
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../commands/jimi-concox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Jimi
     
   </span>
   
@@ -1061,6 +1130,8 @@
       
   
   
+    
+  
   
   
     
@@ -1070,24 +1141,33 @@
           
         
       
-    
-    
-    
+        
       
+        
+      
+        
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -1099,15 +1179,829 @@
 
             </a>
             
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Tutorials
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    G400
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            G400
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../g400family/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Các biến thể
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cài đặt
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kết nối cảm biến
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshoot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Xử lý sự cố
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nâng cao
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Firmware
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../GTS8/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    GT-S8
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            GT-S8
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GTS8/gts8family/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Các biến thể
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GTS8/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cài đặt
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GTS8/sensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kết nối cảm biến
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GTS8/troubleshoot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Xử lý sự cố
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GTS8/advanced/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nâng cao
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../GTS8/firmware_releases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Firmware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../MDVR02/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    GT-MDVR02 Plus
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            GT-MDVR02 Plus
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MDVR02/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cài đặt
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MDVR02/sensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kết nối cảm biến
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../MDVR02/config/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Cấu hình MDVR
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_4_4" id="__nav_6_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Cấu hình MDVR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MDVR02/config/system/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    System
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MDVR02/config/record/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MDVR02/troubleshoot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Xử lý sự cố
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Other/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Các tình huống khác
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Các tình huống khác
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Other/rfid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Thẻ lái xe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Other/config_sensor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tham số cảm biến
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
               
             
           </ul>
@@ -1137,8 +2031,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -1149,7 +2041,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../changed/" class="md-nav__link ">
+            <a href="../../../changed/" class="md-nav__link ">
               
   
   
@@ -1184,7 +2076,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changed/platform/changed-platform/" class="md-nav__link">
+      <a href="../../../changed/platform/changed-platform/" class="md-nav__link">
         
   
   
@@ -1227,8 +2119,6 @@
     
       
       
-        
-      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -1239,7 +2129,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../faq/" class="md-nav__link ">
+            <a href="../../../faq/" class="md-nav__link ">
               
   
   
@@ -1274,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq/platform/faq-platform/" class="md-nav__link">
+      <a href="../../../faq/platform/faq-platform/" class="md-nav__link">
         
   
   
@@ -1305,8 +2195,6 @@
             
             
               
-                
-              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -1319,32 +2207,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#cam-bien-nhien-lieu-ligo-sp-rs232" class="md-nav__link">
-    <span class="md-ellipsis">
-      Cảm biến nhiên liệu LIGO SP RS232
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cam-bien-nhiet-o-ste-r1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Cảm biến nhiệt độ STE-R1
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1355,7 +2217,7 @@
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K86VCV3" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
+    style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
@@ -1364,8 +2226,6 @@
               <article class="md-content__inner md-typeset">
                 
                   
-  
-
 
 <!--
   Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
@@ -1392,78 +2252,215 @@
 <!-- Actions -->
 
 
-<div><h1 id="bo-thong-so-cai-at-cam-bien">Bộ thông số cài đặt cảm biến<a class="headerlink" href="#bo-thong-so-cai-at-cam-bien" title="Permanent link">¶</a></h1>
-<h2 id="cam-bien-nhien-lieu-ligo-sp-rs232">Cảm biến nhiên liệu LIGO SP RS232<a class="headerlink" href="#cam-bien-nhien-lieu-ligo-sp-rs232" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Chế độ</th>
-<th>BaudRate</th>
-<th>Model</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Auto (OFF)</td>
-<td>9600</td>
-<td>GT-S8 / GT-S7 / GT-S04 / S400E / S400 / G400 Plus</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Auto (HEX)</td>
-<td>9600</td>
-<td>SD02N</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Auto (HEX)</td>
-<td>115200</td>
-<td>GT-MDVR02 Plus / GT-MDVR03</td>
-</tr>
-</tbody>
-</table>
-<h2 id="cam-bien-nhiet-o-ste-r1">Cảm biến nhiệt độ STE-R1<a class="headerlink" href="#cam-bien-nhiet-o-ste-r1" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>Chế độ</th>
-<th>BaudRate</th>
-<th>Model</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Normal</td>
-<td>19200</td>
-<td>GT-S8 / GT-S7 / GT-S04 / S400E / S400 / G400 Plus</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Auto</td>
-<td>19200</td>
-<td>SD02N</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Auto</td>
-<td>115200</td>
-<td>GT-MDVR02 Plus / GT-MDVR03</td>
-</tr>
-</tbody>
-</table>
-<p>⚠️ Ghi chú</p>
-<blockquote>
+<div><h1 id="firmware-revisions">Firmware Revisions<a class="headerlink" href="#firmware-revisions" title="Permanent link">¶</a></h1>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked id="firmware-revisions-g400-lnxv" name="__tabbed_1" type="radio"><input id="firmware-revisions-g400-lanv" name="__tabbed_1" type="radio"><input id="firmware-revisions-g400f--gt203-4g" name="__tabbed_1" type="radio"><input id="firmware-revisions-g400-lase" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="firmware-revisions-g400-lnxv">G400-LNXV</label><label for="firmware-revisions-g400-lanv">G400-LANV</label><label for="firmware-revisions-g400f--gt203-4g">G400F / GT203-4G</label><label for="firmware-revisions-g400-lase">G400-LASE</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>52.1.1.1.241023</strong></p>
 <ul>
-<li>Sử dụng cảm biến không cấu hình đúng yêu cầu sẽ không thể kết nối với thiết bị.</li>
-<li><strong>Luôn kiểm tra phiên bản firmware</strong> và <strong>tài liệu kỹ thuật</strong> trước khi kết nối cảm biến.</li>
-<li><strong>Nếu kết nối nhiều cảm biến</strong>, hãy tham khảo <strong>ý kiến kỹ thuật viên</strong> để đảm bảo an toàn và đúng cách.</li>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Sửa lỗi liên quan đến việc sử dụng bộ nhớ</li>
 </ul>
-</blockquote>
-<hr></div>
+</li>
+<li>
+<p><strong>[Thêm mới]</strong></p>
+<ul>
+<li>Thông tin quan sát hai tham số thời gian tự tắt phòng vệ khi mất kết nối server và bật tắt tự động tắt bảo vệ pin vào lệnh view,comm# trong mục "smk"</li>
+</ul>
+</li>
+</ul>
+<p><strong>52.1.1.0.241015</strong></p>
+<ul>
+<li><strong>[Tối ưu]</strong><ul>
+<li>Cải thiện tính năng bảo vệ pin bằng lệnh tự động tắt bảo vệ pin “smkautoprotoff,&lt;0/1&gt;#”. Ở chế độ bảo vệ pin, chế độ phòng vệ sẽ tự bật nếu người dùng quên tắt khóa điện. Muốn tắt phòng vệ, cần tắt khóa điện, sau đó cần hoặc không cần tạo rung động dựa theo lệnh smkautoprotoff,&lt;0/1&gt;#.</li>
+</ul>
+</li>
+</ul>
+<p><strong>52.1.0.0.240811</strong></p>
+<ul>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Sửa lỗi liên quan đến GPS255</li>
+</ul>
+</li>
+<li>
+<p><strong>[Thêm mới]</strong></p>
+<ul>
+<li>Tạo firmware đầu tiên</li>
+<li>Thêm hoạt động nháy LED khi đang thực hiện OTA</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>1.001.00.LV0024.250609</strong></p>
+<ul>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Fix lỗi kết nối cảm biến qua RS232 trên bản G400-RR</li>
+</ul>
+</li>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Tăng thời gian watchdog time lên 256s tránh trường hợp bị reset do kết nối mạng kém</li>
+<li>Cập nhật một vị trí mới mỗi khi ACC bật</li>
+<li>Tăng tài nguyên giúp tránh reset khi kết nối mạng kém</li>
+<li>Cập nhật độ mạnh sóng sớm cho trường hợp: Thiết bị thức dậy hoặc mất/có mạng</li>
+</ul>
+</li>
+</ul>
+<p><strong>1.001.00.LV0023.240510</strong></p>
+<ul>
+<li><strong>[Sửa lỗi]</strong><ul>
+<li>Thiếu thông tin phản hồi của một số lệnh view</li>
+</ul>
+</li>
+</ul>
+<p><strong>1.001.00.LV0022.240510</strong></p>
+<ul>
+<li><strong>[Thêm mới]</strong><ul>
+<li>Tính năng tự động tắt phòng vệ sau một khoảng thời gian mất kết nối. Cú pháp cài đặt: smkautodefoff,&lt; thời gian theo phút, 0 là tắt &gt;#</li>
+<li>Cặp điện trở: 604000/82000 cho dải đo 0~90VDC và công thức tính điện áp cho dải này</li>
+<li>Watchdog</li>
+</ul>
+</li>
+</ul>
+<p><strong>1.001.00.LV0021.231213</strong></p>
+<ul>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Reload thông tin cấu hình agnss mỗi khi thay đổi account hoặc IP/port của server agnss</li>
+<li>Không dừng được task update fw qua OTA khi thời gian update diễn ra quá lâu (theo thiết kế update phải dừng nếu vượt 30 phút)</li>
+<li>Không tự reset thiết bị khi mất sóng quá lâu (60 phút)</li>
+</ul>
+</li>
+<li>
+<p><strong>[Thêm mới]</strong></p>
+<ul>
+<li>Định kỳ thức dậy để dò sóng GPS. Lệnh cấu hình: gnsswkinterval,&lt; time in minute &gt;#</li>
+<li>Đổi thông tin cấu hình mặc định của agnss server (server gotrack)</li>
+</ul>
+</li>
+<li>
+<p><strong>[Tối ưu]</strong></p>
+<ul>
+<li>Tăng tốc độ kết nối server</li>
+</ul>
+</li>
+</ul>
+<p><strong>1.001.00.000020.230930</strong></p>
+<ul>
+<li><strong>[Tối ưu]</strong><ul>
+<li>Hoạt động của ACK đối với Server Gotrack</li>
+</ul>
+</li>
+</ul>
+<p><strong>1.001.00.000019.230904</strong></p>
+<ul>
+<li><strong>[Sửa lỗi]</strong><ul>
+<li>Mất cập nhật vận tốc khi xe đi ra khỏi hầm với vận tốc &gt; 85km/h</li>
+</ul>
+</li>
+<li><strong>[Tối ưu]</strong><ul>
+<li>Cảnh báo chuyển động</li>
+<li>Giảm thời gian trễ khi phản hồi lệnh từ platform</li>
+<li>Việc phát hiện kết nối server có vấn đề, cụ thể thiết bị không thể truyền được gói tin đến server sau mỗi lần kết nối thành công. Kết nối thành công -&gt; lỗi khi gửi bản tin -&gt; kết nối lại -&gt; lặp lại lỗi. Xảy ra nhiều và dễ gặp với SIM VINA và trong khi xe di chuyển</li>
+<li>Chỉ thực hiện reset thiết bị do việc mất kết nối mạng quá lâu với điều kiện xe dừng và khóa ACC là off. Tránh việc phải bắt lại GPS khi xe đang chạy gây ra nhảy lộ trình</li>
+<li>Thực hiện xóa log mỗi khi truyền xong 45KB giúp có thêm bộ nhớ lưu trữ lịch sử khi xe chạy đường dài và liên tục xuyên qua các vùng lõm sóng</li>
+<li>Tiếp tục giữ thời gian chờ trong việc dò sóng GPS khi bật tắt khóa hoặc rung lắc</li>
+</ul>
+</li>
+</ul>
+<p><strong>1.001.00.000016.230717</strong></p>
+<ul>
+<li><strong>[Thêm mới]</strong><ul>
+<li>Hỗ trợ gói tin về thông tin thiết bị</li>
+</ul>
+</li>
+<li><strong>[Tối ưu]</strong><ul>
+<li>Hoạt động cảm biến SC7A20</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>1.000.01.000006.221109</strong></p>
+<ul>
+<li>Phát hành chính thức</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>2.000.00.000021.231212</strong></p>
+<ul>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Reload thông tin cấu hình agnss mỗi khi thay đổi account hoặc IP/port của server agnss</li>
+<li>Không dừng được task update fw qua OTA khi thời gian update diễn ra quá lâu (theo thiết kế update phải dừng nếu vượt 30 phút)</li>
+<li>Không tự reset thiết bị khi mất sóng quá lâu (60 phút)</li>
+</ul>
+</li>
+<li>
+<p><strong>[Thêm mới]</strong></p>
+<ul>
+<li>Định kỳ thức dậy để dò sóng GPS. Lệnh cấu hình: gnsswkinterval,&lt; time in minute &gt;#</li>
+<li>Đổi thông tin cấu hình mặc định của agnss server (server gotrack)</li>
+</ul>
+</li>
+<li>
+<p><strong>[Tối ưu]</strong></p>
+<ul>
+<li>Tăng tốc độ kết nối server</li>
+</ul>
+</li>
+</ul>
+<p><strong>2.000.00.000016.230620</strong></p>
+<ul>
+<li>
+<p><strong>[Sửa lỗi]</strong></p>
+<ul>
+<li>Cấu hình altio cho G400-Plus-IR</li>
+<li>Ký tự dư thừa trong phản hồi lệnh qua web/server</li>
+<li>Reset speed khi đi từ trong đường hầm ra ngoài với vận tốc &gt; 85km/h</li>
+</ul>
+</li>
+<li>
+<p><strong>[Thêm mới]</strong></p>
+<ul>
+<li>Chức năng sạc built-in battery</li>
+<li>Xóa log sau khi truyền xong để tránh truyền lại khi tắt/bật</li>
+<li>Bộ lọc GPS theo ACC</li>
+</ul>
+</li>
+<li>
+<p><strong>[Tối ưu]</strong></p>
+<ul>
+<li>Cảnh báo rung động: gửi liên tiếp trong 1 phút (mỗi lần cách 5s), sau đó dừng. Tiếp tục cảnh báo nếu sau 1 phút không có rung lắc hoặc sau 5 phút nếu rung lắc vẫn tiếp tục ở 1 phút đầu</li>
+<li>Chống nhiễu khi có/mất nguồn ngoài liên tục</li>
+<li>Tối ưu hoạt động</li>
+<li>Thuật toán tạo PIN CODE</li>
+</ul>
+</li>
+</ul>
+<p><strong>2.000.00.000009.230103</strong></p>
+<ul>
+<li>Fix lỗi treo thiết bị</li>
+</ul>
+<p><strong>2.000.00.000006.221223</strong></p>
+<ul>
+<li>Phát hành chính thức</li>
+</ul>
+</div>
+</div>
+</div></div>
+
+
 
 
 
@@ -1472,14 +2469,7 @@
 
 
   
-  
 
-
-
-  
-
-
-  
 
 
 
@@ -1495,16 +2485,50 @@
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Back to top
-</button>
-        
       </main>
       
         <footer class="md-footer">
     
+    
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+        
+        <a href="../advanced/" class="md-footer__link md-footer__link--prev"
+            aria-label="Previous: Nâng cao">
+            <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+                <span class="md-footer__direction">
+                    Previous
+                </span>
+                <div class="md-ellipsis">
+                    Nâng cao
+                </div>
+            </div>
+        </a>
+        
+        
+        
+        <a href="../../GTS8/" class="md-footer__link md-footer__link--next"
+            aria-label="Next: Tổng quan">
+            <div class="md-footer__title">
+                <span class="md-footer__direction">
+                    Next
+                </span>
+                <div class="md-ellipsis">
+                    Tổng quan
+                </div>
+            </div>
+            <div class="md-footer__button md-icon">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+        </a>
+        
+    </nav>
     
     
 
@@ -1913,14 +2937,16 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.code.annotate", "content.tabs.link", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.action.edit", "content.code.annotate", "content.tabs.link", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.path", "navigation.tabs", "navigation.tracking", "toc.follow", "toc.intergrate"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
 <!-- Add scripts that need to run before here -->
 
-      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
-        <script src="../../_extra/javascript/extra.js"></script>
+        <script src="../../../_extra/javascript/extra.js"></script>
+      
+        <script src="../../../_extra/javascript/script.js"></script>
       
     
 <!-- Add scripts that need to run afterwards here -->
